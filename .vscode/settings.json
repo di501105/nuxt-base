@@ -1,0 +1,60 @@
+{
+  "cSpell.words": [
+    "antfu",
+    "Nuxt",
+    "pinia",
+    "unocss"
+  ],
+  "editor.accessibilitySupport": "off",
+  "editor.formatOnSave": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  // Auto fix
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "never"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "yaml",
+    "toml",
+    "xml",
+    "gql",
+    "graphql",
+    "astro",
+    "svelte",
+    "css",
+    "less",
+    "scss",
+    "pcss",
+    "postcss"
+  ],
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "stylelint.validate": [
+    "css",
+    "scss",
+    "less",
+    "vue",
+    "html"
+  ],
+  "liveServer.settings.donotShowInfoMsg": true,
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html",
+    "vue-html": "html",
+    "vue": "html",
+    "javascript": "javascript"
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "explorer.confirmDragAndDrop": false
+}

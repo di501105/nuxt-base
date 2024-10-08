@@ -1,0 +1,39 @@
+.el-pagination {
+  --el-pagination-border-radius: 8px !important;
+}
+
+.el-table {
+  --el-table-border-color: transparent !important;
+  --el-table-header-bg-color: var(--el-fill-color-lighter) !important;
+
+  .cell {
+    @apply px-4;
+  }
+
+  .el-table__cell {
+    @apply py-[14px];
+
+    .cell {
+      @apply text-el-text-color-secondary;
+    }
+  }
+
+  .el-table__header {
+    tr {
+      th:first-of-type {
+        @apply rounded-l-lg;
+      }
+      th:last-of-type {
+        @apply rounded-r-lg;
+      }
+    }
+  }
+  .el-table__row {
+    .el-table__cell:first-of-type {
+      @apply rounded-l-lg;
+    }
+    .el-table__cell:last-of-type {
+      @apply rounded-r-lg;
+    }
+  }
+}
